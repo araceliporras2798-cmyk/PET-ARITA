@@ -1,0 +1,66 @@
+container {
+  padding: 20px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+}
+
+.btn-primary {
+  background: linear-gradient(#4fc3f7, #29b6f6);
+  border: none;
+  padding: 12px;
+  width: 90%;
+  border-radius: 20px;
+  color: white;
+  margin-top: 10px;
+}
+
+.btn-orange {
+  background: #f4a261;
+  border: none;
+  padding: 12px;
+  border-radius: 20px;
+  color: white;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gray {
+  color: gray;
+}
+
+.green {
+  color: #4caf50;
+}
+
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #8bc34a;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
